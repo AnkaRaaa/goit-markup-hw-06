@@ -355,6 +355,7 @@ li {
 .form-input:hover,
 .form-input:focus {
   border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .textaria {
@@ -389,7 +390,26 @@ li {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.check-laber {
+  display: flex;
+  align-items: center;
+}
+.check-laber::before {
+  content: "";
+  border: 2px solid #000;
+  border-radius: 4px;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+.checbox:checked + .check-laber::before {
+  background: var(--accent-color);
+  background-image: url(../image/icon\ check.svg);
+  border: none;
+  background-repeat: no-repeat;
+  background-repeat: cover;
+  background-position: center;
+}
 /* section */
 .section {
   padding-top: 94px;
