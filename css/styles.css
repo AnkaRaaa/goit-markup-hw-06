@@ -472,10 +472,10 @@ li {
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--accent-color);
 }
-.modal-comment:hover::placeholder,
+/* .modal-comment:hover::placeholder,
 .modal-comment:focus::placeholder {
   color: var(--accent-color);
-}
+} */
 .modal-comment:hover,
 .modal-comment:focus {
   border: 1px solid var(--accent-color);
