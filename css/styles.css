@@ -387,7 +387,7 @@ li {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  background-color: #ffffff;
+
   display: none;
   width: 1170px;
 }
@@ -491,7 +491,7 @@ li {
   margin-bottom: 30px;
 }
 
-.modal-icon-check {
+.form-icon-check {
   display: block;
 }
 .checkbox:hover + .check-label > .icon-check,
