@@ -401,7 +401,9 @@ li {
   align-items: center;
   justify-content: center;
 }
-
+.form-icon-check {
+  display: block;
+}
 .checkbox:checked + .check-label .icon-check {
   background-color: var(--accent-color);
 }
@@ -491,9 +493,6 @@ li {
   margin-bottom: 30px;
 }
 
-.form-icon-check {
-  display: block;
-}
 .checkbox:hover + .check-label > .icon-check,
 .checkbox:focus + .check-label > .icon-check {
   border-color: var(--accent-color);
